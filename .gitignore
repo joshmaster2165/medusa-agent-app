@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# JavaScript
+node_modules
+dist
+dist-ssr
+
+# Tauri
+src-tauri/target
+src-tauri/gen
+src-tauri/WixTools
+src-tauri/.cargo
+
+# Environment
+.env
+.env.local
